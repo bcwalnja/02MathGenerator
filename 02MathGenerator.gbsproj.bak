@@ -1,8 +1,8 @@
 {
-    "name": "Untitled",
+    "name": "02MathGenerator",
     "author": "bcwal",
     "_version": "3.1.0",
-    "_release": "0",
+    "_release": "3",
     "scenes": [],
     "backgrounds": [
         {
@@ -966,9 +966,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            443,
-            135,
-            135
+            596,
+            180,
+            180
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
