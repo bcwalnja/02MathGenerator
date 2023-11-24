@@ -497,7 +497,34 @@
                     "collisionGroup": "",
                     "symbol": "actor_0",
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_LAUNCH_PROJECTILE",
+                            "args": {
+                                "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                "spriteStateId": "",
+                                "actorId": "$self$",
+                                "x": 0,
+                                "y": 0,
+                                "otherActorId": "$self$",
+                                "direction": "right",
+                                "angle": 0,
+                                "angleVariable": "L0",
+                                "directionType": "anglevar",
+                                "initialOffset": 0,
+                                "speed": 2,
+                                "animSpeed": 15,
+                                "lifeTime": 4,
+                                "loopAnim": true,
+                                "destroyOnHit": true,
+                                "collisionGroup": "3",
+                                "collisionMask": [
+                                    "player"
+                                ]
+                            },
+                            "id": "76976a76-5bbb-4be2-9da5-f4be8f6f6212"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -2005,54 +2032,6 @@
                                     "animSpeed": 3,
                                     "lifeTime": 1.2,
                                     "directionType": "actor",
-                                    "angleVariable": "0",
-                                    "angle": 0,
-                                    "otherActorId": "$self$",
-                                    "loopAnim": true,
-                                    "destroyOnHit": true
-                                }
-                            }
-                        ]
-                    },
-                    "__type": "event"
-                }
-            ]
-        },
-        {
-            "id": "ea07834a-883e-4556-b05a-f1e88999977c",
-            "name": "ProjectileInit2",
-            "description": "Attaches the actor as the target",
-            "variables": {},
-            "actors": {},
-            "symbol": "script_2",
-            "script": [
-                {
-                    "id": "725c3fe9-a2a0-4522-aa12-2ca217e426e1",
-                    "command": "EVENT_SET_INPUT_SCRIPT",
-                    "args": {
-                        "input": [
-                            "a"
-                        ],
-                        "override": true
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "id": "b2e30fed-3d11-448f-85a8-f80192cee181",
-                                "command": "EVENT_LAUNCH_PROJECTILE",
-                                "args": {
-                                    "spriteSheetId": "3ff2d132-781c-47ce-b75c-15ccc8f850ce",
-                                    "actorId": "player",
-                                    "direction": "right",
-                                    "speed": 3,
-                                    "collisionGroup": "1",
-                                    "collisionMask": [
-                                        "player"
-                                    ],
-                                    "__collapse": false,
-                                    "animSpeed": 3,
-                                    "lifeTime": 1.2,
-                                    "directionType": "anglevar",
                                     "angleVariable": "0",
                                     "angle": 0,
                                     "otherActorId": "$self$",
